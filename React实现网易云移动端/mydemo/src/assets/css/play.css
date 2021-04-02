@@ -1,0 +1,50 @@
+.play{
+    background-color: #161824;
+    padding-top: .5rem;
+}
+.play .song-disc{
+    width: 4.94rem;
+    height: 4.94rem;
+    margin: 0 auto;
+}
+.play .song-disc img{
+    width: 4.94rem;
+    height: 4.94rem;
+    border-radius: 50%;
+}
+.play .song-h2{
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.1;
+    color: #fefefe;
+    font-weight: 400;
+    padding-top: .5rem;
+}
+.play .song-h2 .gap{
+    margin: 0 4px;
+}
+.play .song-h2 .autr{
+    font-size: 16px;
+    color: hsla(0,0%,100%,.6);
+}
+.play .song-lrori{
+    font-size: 16px;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: .28rem .7rem 1.08rem .7rem;
+}
+.play .music{
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+}
+.play .btn{ 
+    height: .6rem;
+    width: 1rem;
+    padding: 0 10px;   
+    border: 1px solid #2c96b2;  
+    color: #d43c33;
+    background-color: #fff;
+    border-radius: 57%/100%;
+}

@@ -1,0 +1,9 @@
+.playlist .btn{ 
+    height: .6rem;
+    width: 1rem;
+    padding: 0 10px;   
+    border: 1px solid #2c96b2;  
+    color: #fff;
+    background-color: #d43c33;
+    border-radius: 57%/100%;
+}

@@ -1,0 +1,140 @@
+/* 搜索框 */
+.search .input{
+    padding: .3rem .2rem;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.search .input .inputcover{
+    position: relative;
+    width: 100%;
+    height: .6rem;
+    padding: 0 .6rem;
+    box-sizing: border-box;
+    background: #ebecec;
+    border-radius: .6rem;
+}
+.search .input .inputcover > i{
+    position: absolute;
+    left: 0;
+    top: 9px;
+    margin: 0 8px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNiAyNiI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBmaWxsPSIjYzljOWNhIiBkPSJNMjUuMTgxIDIzLjUzNWwtMS40MTQgMS40MTQtNy4zMTUtNy4zMTRBOS45NjYgOS45NjYgMCAwIDEgMTAgMjBDNC40NzcgMjAgMCAxNS41MjMgMCAxMFM0LjQ3NyAwIDEwIDBzMTAgNC40NzcgMTAgMTBjMCAyLjM0Mi0uODExIDQuNDktMi4xNiA2LjE5NWw3LjM0MSA3LjM0ek0xMCAyYTggOCAwIDEgMCAwIDE2IDggOCAwIDAgMCAwLTE2eiIvPjwvc3ZnPg==);
+}
+.search .input .inputcover input{
+    width: 100%;
+    height: .6rem;
+    line-height: .36rem;
+    background: rgba(0,0,0,0);
+    font-size: 14px;
+    color: #333;
+    border-radius: 0;
+    border: 0;
+}
+.search .input .inputcover input::placeholder{
+    font-size: 14px;
+    color: #c9c9c9;
+}
+.search .input .inputcover .close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: .6rem;
+    height: .6rem;
+    line-height: 28px;
+    text-align: center;
+}
+.search .input .inputcover .close i{
+    display: inline-block;
+    vertical-align: middle;
+    width: .28rem;
+    height: .28rem;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyOCAyOCI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmNiZGJkIiBkPSJNMTQgMGM3LjczMiAwIDE0IDYuMjY4IDE0IDE0cy02LjI2OCAxNC0xNCAxNFMwIDIxLjczMiAwIDE0IDYuMjY4IDAgMTQgMHoiLz48cGF0aCBkPSJNMTkgOUw5IDE5TTkgOWwxMCAxMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZWJlY2ViIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIi8+PC9nPjwvc3ZnPg==);
+}
+/* 热门搜索 */
+.search .hotlist{
+    padding: .3rem .2rem 0;
+}
+.search .hotlist h3{
+    font-size: 12px;
+    line-height: 12px;
+    color: #666;
+}
+.search .hotlist ul{
+    margin: .2rem 0 .14rem;
+}
+.search .hotlist ul li{
+    display: inline-block;
+    height: .64rem;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 0 14px;
+    font-size: 14px;
+    line-height: .64rem;
+    color: #333;
+    position: relative;
+    border:1px solid #d3d4da;
+    border-radius: 32px;
+}
+/* 搜索结果列表 */
+.search .songlist{
+    background: #fcfcfd;
+}
+.search .songlist .item{
+    padding-left: .2rem;
+    display: flex;
+}
+.search .songlist .fr{
+    flex: 1 1 auto;
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.search .songlist .fr .left{
+    padding: 6px 0;
+    width: 0;
+    flex: 1 1 auto;
+}
+.search .songlist .fr .left > p{
+    font-size: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+.search .songlist .fr .left > p span{
+    color: #888;
+    margin-left: 4px;
+}
+.search .songlist .fr .left .info{
+    font-size: 12px;
+    color: #888;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+.search .songlist .fr .left .info i{
+    display: inline-block;
+    width: .24rem;
+    height: 8px;
+    margin-right: 4px;
+    background: url(//s3.music.126.net/mobile-new/img/index_icon_2x.png?5207a28…=) no-repeat;
+    background-size: 166px 97px;
+}
+.search .songlist .fr .right{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.search .songlist .fr .right span{
+    display: inline-block;
+    width: .44rem;
+    height: .44rem;
+    background: url(//s3.music.126.net/mobile-new/img/index_icon_2x.png?5207a28…=) no-repeat;
+    background-size: 166px 97px;
+    background-position: -24px 0;
+}
